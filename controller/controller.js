@@ -11,7 +11,6 @@ export default class Controller {
         this.textItemsView = new TextItemsView(appElement, this.textItems);
 
         // html elements' on click handlers
-        document.getElementById("addButton").addEventListener( "click", (e)=> {this.add()});
         document.getElementById("makeTextLowerCase").addEventListener( "click", (e)=> {this.makeAllLowerCase()});
     }
 
